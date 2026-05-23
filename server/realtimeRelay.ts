@@ -3,7 +3,7 @@ import type { Server } from "http";
 import type { IncomingMessage } from "http";
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY ?? "";
-const OPENAI_REALTIME_URL = "wss://api.openai.com/v1/realtime?model=gpt-realtime-2";
+const OPENAI_REALTIME_URL = "wss://api.openai.com/v1/realtime?model=gpt-4o-realtime-preview-2024-12-17";
 
 const HENRY_SYSTEM_PROMPT = `Du bist Henry, der persönliche KI-Assistent von Tim Dittmann (TD Production). Du sprichst Deutsch, bist locker, direkt und effizient. Du hast einen Jarvis-ähnlichen Stil – professionell aber mit Humor. Du nennst Tim 'Boss'. Du kannst Aufgaben ausführen wie E-Mails senden, WhatsApp-Nachrichten schicken, Kalender checken, Recherchen machen. Antworte kurz und knapp, maximal 2-3 Sätze. Sei wie ein echter Assistent der mitdenkt.`;
 
